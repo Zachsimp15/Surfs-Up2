@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+h1 {
+  color: #FEC108;
+  tcarousel-inneralign: center;
+  font-size: 72px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  color: #FEC108;
+}
+
+th {
+  color: #FEC108;
+  font-size: 25px;
+}
+
+.table {
+  background-color: #ffffff;
+}
+
+h3 {
+  color: #23bac3;
+}
+
+td {
+  color: #23bac3;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+ color: rgba(255,255,255,1); 
+}
+
+footer .jumbotron{
+  background-color: #23bac3;
+border-top: 8px solid #f62384;
+border-bottom: 8px solid #f62384;
+margin-bottom: 0px;
+}
+
+.bg-company-red {
+  background-color: #23bac3;
+  border-bottom: 8px solid #f62384;
+}
+
+#carousel-inner {
+  border-style: solid;
+  border-color: coral;
+}
+
+#owner {
+  background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-rz73Bg8/0/92dd6c3f/M/Lawson-M.png");
+  background-size: 100%, 100%;
+  width: 100%;
+  min-height: 350px;
+  background-repeat: no-repeat;
+}
+
+#surf {
+  background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-d2JhzDB/0/61c6bcd7/M/ShavedIce-M.jpg");
+  background-size: 100%, 100%;
+  width: 100%;
+  min-height: 350px;
+  background-repeat: no-repeat;
+}
+
+#contact {
+  background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/Web-Development-Images/Simpson/i-gCHdxHR/0/093bf884/M/IMG_0015-M.png");
+  background-size: 100%, 100%;
+  width: 100%;
+  min-height: 350px;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+p {
+  font-family: 'Merriweather' serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+a.nav-link:hover {
+  background-color: #f62384;
+}
+
+nav-item {
+  color: #f62384;
+}
+#mosaic {
+   padding-bottom: 7px;
+}
+@media only screen and (max-width: 767px) {
+  h1{font-size:58px;}
+  
+}
+@media only screen and (max-width: 512px) {
+  h1{font-size:48px;}
+  
+}
+
+
+
+
+
+
+
